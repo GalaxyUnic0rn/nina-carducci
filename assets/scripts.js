@@ -12,4 +12,10 @@ $(document).ready(function() {
         showTags: true,
         tagsPosition: 'top'
     });
+
+      // Ajout de la classe 'active-category' au clic sur un tag
+      $('.tags-bar').on('click', '.nav-link', function() {
+        $('.nav-link').removeClass('active-category');
+        $(this).addClass('active-category');
+    });
 });
