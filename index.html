@@ -7,6 +7,66 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci - Photographe</title>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "image": "https://galaxyunic0rn.github.io/nina-carducci/assets/images/nina.webp",
+		  "address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Bordeaux",
+			"addressRegion": "Nouvelle-Aquitaine",
+			"postalCode": "33200",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressCountry": "FR"
+		  },
+		  "priceRange": "50€ a 400€",
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 44.846806,
+			"longitude": -0.607187
+		  },
+		  "name": "Nina Carducci",
+		  "description": "Nina Carducci est une photographe basée sur Bordeaux qui propose des services de shooting, de retouches et d'album partout en France",
+		  "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+		  "telephone": "05 56 67 78 89",
+		  "url": "https://thra.github.io/dev-web-P5-v2/",
+		  "hasOfferCatalog": {
+			"@type": "OfferCatalog",
+			"name": "Photographies",
+			"itemListElement": [
+			  {
+				"@type": "OfferCatalog",
+				"name": "One-time services",
+				"itemListElement": [
+				  {
+					"@type": "Offer",
+					"itemOffered": {
+					  "@type": "Service",
+					  "name": "Shooting photo"
+					}
+				  },
+				  {
+					"@type": "Offer",
+					"itemOffered": {
+					  "@type": "Service",
+					  "name": "Retouches"
+					}
+				  },
+				  {
+					"@type": "Offer",
+					"itemOffered": {
+					  "@type": "Service",
+					  "name": "Album photos"
+					}
+				  }
+				]
+			  }
+			]
+		  }
+		}
+		</script>
+		
 	<!-- Balises OpenGraph pour Facebook -->
 	<meta property="og:title" content="Nina Carducci - Photographe">
 	<meta property="og:description" content="Devenir photographe était pour moi une évidence...">
@@ -34,12 +94,15 @@
 	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script defer src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>
+
+	  
+	  
 	
 </head>
 
 <body>
 	<header class="top-header">
-		<h3 class="name">Nina Carducci</h3>
+		<h1 class="name">Nina Carducci</h1>
 		<nav class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -93,10 +156,10 @@
 				<img fetchPriority="low" src="./assets/images/nina.webp" alt="Nina Carducci">
 			</div>
 			<div id="about-me">
-				<h3 class="about-me__title">À propos de moi</h3>
-				<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
+				<h2 class="about-me__title">À propos de moi</h2>
+				<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 					prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-					immortels, voilà ce qui me fait vibrer.</h6>
+					immortels, voilà ce qui me fait vibrer.</h3>
 				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
 					le
 					figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
@@ -115,45 +178,45 @@
 				<div class="gallery" style="display: none">
 					<img fetchPriority="low" data-gallery-tag="Concert" class="gallery-item"
 						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
-						alt="Concert Photo" />
+						alt="Concert Photo" data-alt="Concert Photo"/>
 					<img fetchPriority="low" data-gallery-tag="Entreprises" class="gallery-item"
-						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unspl.webp" alt="Men" />
+						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unspl.webp" alt="Men" data-alt="Men" />
 					<img fetchPriority="low" data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unspla.webp"
-						alt="women at office " />
+						alt="women at office" data-alt="women at office"/>
 					<img fetchPriority="low" data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unspla.webp"
-						alt="Hands Photo 1" />
+						alt="Hands Photo 1"data-alt="Hands Photo 1" />
 					<img fetchPriority="low" data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
-						alt="Portrait men" />
+						alt="Portrait men" data-alt="Portrait men"/>
 					<img fetchPriority="low" data-gallery-tag="Mariages" class="gallery-item"
-						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="wedding" />
+						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="wedding"data-alt="wedding" />
 					<img fetchPriority="low" data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8.webp"
-						alt="Women portrait" />
+						alt="Women portrait" data-alt="Women portrait"/>
 					<img fetchPriority="low" data-gallery-tag="Concert" class="gallery-item"
-						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplas.webp" alt="concert" />
+						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplas.webp" alt="concert" data-alt="concert"/>
 					<img fetchPriority="low" data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY.webp"
-						alt="Women portrait at work">
+						alt="Women portrait at work" data-alt="Women portrait at work">
 				</div>
 			</div>
 			<div class="quote">
 				<figure>
 					<blockquote>
-						<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
+						<h2 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
 							fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
 							n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la
 							vérité.
-						</h1>
+						</h2>
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
 			</div>
 		</section>
 		<section id="services">
-			<h3 class="title">Mes services</h3>
+			<h2 class="title">Mes services</h2>
 			<div class="container">
 				<article class="service">
 					<div class="service__description">
@@ -195,8 +258,8 @@
 		<div class="quote">
 			<figure>
 				<blockquote>
-					<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
-						traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+					<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
+						traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h2>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
@@ -217,17 +280,7 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/camera.webp" alt="Camera Image">
-				</div>
-			</div>
-		</section>
-		<section id="contact-info">
-			<div class="container">
-				<div class="contact-details">
-					<h3>Coordonnées</h3>
-					<p>Adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux.</p>
-					<p>Téléphone : 05 56 67 78 89</p>
-					<p>Disponible du lundi au vendredi de 10 h à 19 h.</p>
+					<img src="./assets/images/camera.webp" alt="image d'un appareil photo ">
 				</div>
 			</div>
 		</section>
